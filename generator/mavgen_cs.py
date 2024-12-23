@@ -121,7 +121,7 @@ public partial class MAVLink
     public const int MAVLINK_LITTLE_ENDIAN = 1;
     public const int MAVLINK_BIG_ENDIAN = 0;
 
-    public const byte MAVLINK_STX = 0xFC;
+    public const byte MAVLINK_STX = 0xFC; 
 
     public const byte MAVLINK_STX_MAVLINK1 = 0xFD;
 
