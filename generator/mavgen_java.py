@@ -358,8 +358,8 @@ ${importString}
 public class MAVLinkPacket implements Serializable {
     private static final long serialVersionUID = 2095947771227815314L;
 
-    public static final int MAVLINK_STX_MAVLINK1 = 0xFE; // 254
-    public static final int MAVLINK_STX_MAVLINK2 = 0xFD; // 253
+    public static final int MAVLINK_STX_MAVLINK1 = 0xFD; 
+    public static final int MAVLINK_STX_MAVLINK2 = 0xFC; 
     public static final int MAVLINK1_HEADER_LEN = 6;
     public static final int MAVLINK2_HEADER_LEN = 10;
     public static final int MAVLINK1_NONPAYLOAD_LEN = MAVLINK1_HEADER_LEN + 2;

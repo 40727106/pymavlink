@@ -66,7 +66,7 @@ def generate_main_hpp(directory, xml):
 #include <sstream>
 
 #ifndef MAVLINK_STX
-#define MAVLINK_STX ${protocol_marker}
+#define MAVLINK_STX 0xFC
 #endif
 
 #include "../message.hpp"

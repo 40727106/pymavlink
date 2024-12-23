@@ -52,7 +52,7 @@ def generate_mavlink_h(directory, xml):
 #define MAVLINK_PRIMARY_XML_HASH ${xml_hash}
 
 #ifndef MAVLINK_STX
-#define MAVLINK_STX ${protocol_marker}
+#define MAVLINK_STX 0xFC
 #endif
 
 #ifndef MAVLINK_ENDIAN
